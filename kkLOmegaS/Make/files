@@ -1,0 +1,3 @@
+kkLOmegaS.C
+
+LIB = $(FOAM_USER_LIBBIN)/libkkLOmegaS

@@ -1,0 +1,22 @@
+# OpenFOAM build artefacts
+**/Make/linux*
+**/Make/darwin*
+**/Make/win*
+**/lnInclude/
+*.o
+*.so
+*.dep
+
+# case run artefacts
+[1-9]*/
+0.[0-9]*/
+processor*/
+postProcessing/
+dynamicCode/
+log.*
+*.foam
+
+# editor / OS
+*~
+.*.swp
+.DS_Store
