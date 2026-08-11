@@ -87,7 +87,7 @@ you upgrade OpenFOAM, re-run the `diff` above to check whether upstream changed.
   stock `kkLOmega` is itself incompressible-only in OF13.
 
 ```bash
-git clone https://github.com/<you>/kkLOmegaS-of13.git
+git clone https://github.com/zulfikarMahmud/kkLOmegaS-of13.git
 cd kkLOmegaS-of13
 source /opt/openfoam13/etc/bashrc
 ./Allwmake            # -> $FOAM_USER_LIBBIN/libkkLOmegaS.so
@@ -231,3 +231,5 @@ used.
 GPL-3.0, matching OpenFOAM. See [LICENSE](LICENSE). This offering is not
 approved or endorsed by the OpenFOAM Foundation, the producer of the OpenFOAM
 software and owner of the OPENFOAM® and OpenCFD® trademarks.
+
+This implementation was done through ClaudeCode and closely monitoring the implementation. Please contact at zulfikarmahmudjoy@gmail.com for any query. 
