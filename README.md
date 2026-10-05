@@ -92,10 +92,13 @@ cd ..
 git clone https://github.com/zulfikarMahmud/kkLOmegaS-of13.git
 cd kkLOmegaS-of13
 source /opt/openfoam13/etc/bashrc
+chmod +x ./Allwmake
 ./Allwmake            # -> $FOAM_USER_LIBBIN/libkkLOmegaS.so
 ```
 
-`./Allwclean` to clean.
+`
+chmod +x ./Allwclean
+./Allwclean` to clean.
 
 ## Usage
 
