@@ -87,6 +87,8 @@ you upgrade OpenFOAM, re-run the `diff` above to check whether upstream changed.
   stock `kkLOmega` is itself incompressible-only in OF13.
 
 ```bash
+cd $FOAM_RUN
+cd ..
 git clone https://github.com/zulfikarMahmud/kkLOmegaS-of13.git
 cd kkLOmegaS-of13
 source /opt/openfoam13/etc/bashrc
